@@ -1,0 +1,106 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0 20px;
+  /* position: fixed; */
+  z-index: 1041;
+  /* margin: 0; */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #aa2b04;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.uploadBtn { 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.upload-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px; /* Adjust margin as needed */
+}
+
+.uploadBtn .button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #f00000;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  top: 50%;
+  left: 50%;
+}
+
+.uploadFile {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 4px;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  top: 50%;
+  left: 50%; 
+  opacity: 0;
+}
+
+.uploadBtn .button:hover {
+  background-color: #c00000;
+}
+
+span {
+  color: #c00000;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h5 {
+  margin-top: 5px;
+  color: grey;
+}
+
+
